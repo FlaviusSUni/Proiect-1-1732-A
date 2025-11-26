@@ -27,12 +27,12 @@ function ProductCard({ product }) {
             <EditIcon className="size-4" />
           </Link>
 
-          {/* <button
+          <button
             className="btn btn-sm btn-error  btn-outline"
             onClick={() => deleteProduct(product.id)}
           >
             <Trash2Icon className="size-4" />
-          </button> */}
+          </button>
         </div>
       </div>
     </div>
